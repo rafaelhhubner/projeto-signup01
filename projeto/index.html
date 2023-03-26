@@ -15,29 +15,46 @@
                 
             </div>
             <div id="form">
-                <h1>Clube do Livro <br> Resenhando Sonhos</h1>
+                <header>
+                    <h1>Clube do Livro <br> Resenhando Sonhos</h1>
+                </header>
+                <h2>Formulário de Inscrição</h2>
                 <form action="cadastro.php" method="post" autcomplete="on">
-                    <div>
-                        <label for="inome">Nome: </label>
-                        <input type="text" id="inome" name="nome">
+                    <div class="form01">
+                        <div class="muito"><label id="label-1" for="inome">Nome:</label></div>
+                        <input class="teste" type="text" id="inome" name="nome" autocomplete="name">
                     </div>
 
-                    <div>
-                        <label for="isobre">Sobrenome: </label>
-                        <input type="text" id="isobre" name="sobre">
+                    <div class="form01">
+                        <div class="muito"><label id="label-2" for="isobre">Sobrenome: </label> </div>
+                        <input class="teste" type="text" id="isobre" name="sobre" autocomplete="family-name">
                     </div>
 
-                    <div>
-                        <label for="iidade">Idade: </label>
-                        <input type="number" id="iidade" name="idade">
+                    <div class="form01">
+                        <div class="muito"><label id="label-3" for="iidade">Idade: </label></div>
+                        <input class="teste" type="number" id="iidade" name="idade">
                     </div>
-                    <div>
-                        <label for="ifav">Livro Favorito: </label>
-                        <input type="text" id="ifav" name="fav">
+                    <div id='at1' class="form01">
+                        <div class="muito"><label for="ifav"> Livro Favorito: </label></div>
+                        <input class="teste" type="text" id="ifav" name="fav">
                     </div>
-                    <div>
+                    <div class="form01">
+                        <div class="muito"><label for="iaut">Autor(a) Favorito(a):</label></div>
+                        <input class="teste" type="text" id="iaut" name="fav">
+                    </div>
+                    <div id="radio" class="form01">
+                        <div class="muito"><label>Sexo: </label></div>
+
+                        <input type="radio" id="imasc" class="rad" name="rad">
+                        <label for="imasc">Masculino</label>
+                        
+                        <input type="radio" id="ifem" class="rad" name="rad">
+                        <label for="ifem">Feminino</label>
+                        
+                    </div>
+                    <div id="field">
                         <fieldset>
-                            <legend>Quais destes gêneros lhe interessam?</legend>
+                            <legend>Quais destes gêneros abaixo lhe interessam?</legend>
                             <section id="secao1">
                                 <div><input type="checkbox" name="" id="irom"><label for="irom"> Romance</label></div>
                                 <div><input type="checkbox" name="" id="ifan"><label for="ifan"> Fantasia</label></div>
@@ -57,6 +74,9 @@
                                 <div><input type="checkbox" name="" id="ipoe"><label for="ipoe"> Poesia</label></div>
                             </section>
                         </fieldset>
+                    </div>
+                    <div id="sub">
+                        <input type="submit" value="Enviar">
                     </div>
                 </form>
             </div>
