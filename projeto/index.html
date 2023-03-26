@@ -18,67 +18,66 @@
                 <header>
                     <h1>Clube do Livro <br> Resenhando Sonhos</h1>
                 </header>
-                <h2>Formulário de Inscrição</h2>
-                <form action="cadastro.php" method="post" autcomplete="on">
-                    <div class="form01">
-                        <div class="muito"><label id="label-1" for="inome">Nome:</label></div>
-                        <input class="teste" type="text" id="inome" name="nome" autocomplete="name">
-                    </div>
-
-                    <div class="form01">
-                        <div class="muito"><label id="label-2" for="isobre">Sobrenome: </label> </div>
-                        <input class="teste" type="text" id="isobre" name="sobre" autocomplete="family-name">
-                    </div>
-
-                    <div class="form01">
-                        <div class="muito"><label id="label-3" for="iidade">Idade: </label></div>
-                        <input class="teste" type="number" id="iidade" name="idade">
-                    </div>
-                    <div id='at1' class="form01">
-                        <div class="muito"><label for="ifav"> Livro Favorito: </label></div>
-                        <input class="teste" type="text" id="ifav" name="fav">
-                    </div>
-                    <div class="form01">
-                        <div class="muito"><label for="iaut">Autor(a) Favorito(a):</label></div>
-                        <input class="teste" type="text" id="iaut" name="fav">
-                    </div>
-                    <div id="radio" class="form01">
-                        <div class="muito"><label>Sexo: </label></div>
-
-                        <input type="radio" id="imasc" class="rad" name="rad">
-                        <label for="imasc">Masculino</label>
-                        
-                        <input type="radio" id="ifem" class="rad" name="rad">
-                        <label for="ifem">Feminino</label>
-                        
-                    </div>
-                    <div id="field">
-                        <fieldset>
-                            <legend>Quais destes gêneros abaixo lhe interessam?</legend>
-                            <section id="secao1">
-                                <div><input type="checkbox" name="" id="irom"><label for="irom"> Romance</label></div>
-                                <div><input type="checkbox" name="" id="ifan"><label for="ifan"> Fantasia</label></div>
-                                <div><input type="checkbox" name="" id="isci"><label for="isci"> Sci-Fi</label></div>
-                                <div><input type="checkbox" name="" id="idis"><label for="idis"> Distopia</label></div>
-                                <div><input type="checkbox" name="" id="iter"><label for="iter"> Terror</label></div>
-                                <div><input type="checkbox" name="" id="imis"><label for="imis"> Mistério</label></div>
-                                <div><input type="checkbox" name="" id="iya"><label for="iya"> Y.A</label></div>
-                            </section>
-                            <section id="secao2">
-                                <div><input type="checkbox" name="" id="icon"><label for="icon"> Contos</label></div>
-                                <div><input type="checkbox" name="" id="isus"><label for="isus"> Suspense</label></div>
-                                <div><input type="checkbox" name="" id="idram"><label for="idram"> Drama</label></div>
-                                <div><input type="checkbox" name="" id="icla"><label for="icla"> Clássico</label></div>
-                                <div><input type="checkbox" name="" id="ihq"><label for="ihq"> HQ</label></div>
-                                <div><input type="checkbox" name="" id="inof"><label for="inof"> Não-Ficção</label></div>
-                                <div><input type="checkbox" name="" id="ipoe"><label for="ipoe"> Poesia</label></div>
-                            </section>
-                        </fieldset>
-                    </div>
+                <section id="central">
+                    <form action="cadastro.php" method="post" autcomplete="on">
+                        <h2>Formulário de Inscrição</h2>
+                        <div id="parte1">
+                            <div>
+                                <div class="muito"><label id="label-1" for="inome">Nome:</label></div>
+                                <input class="teste" type="text" id="inome" name="nome" autocomplete="name">
+                            </div>
+                            <div>
+                                <div class="muito"><label id="label-2" for="isobre">Sobrenome: </label> </div>
+                                <input class="teste" type="text" id="isobre" name="sobre" autocomplete="family-name">
+                            </div>
+                            <div>
+                                <div class="muito"><label id="label-3" for="iidade">Idade: </label></div>
+                                <input class="teste" type="number" id="iidade" name="idade">
+                            </div>
+                            <div>
+                                <div class="muito"><label for="ifav"> Livro Favorito: </label></div>
+                                <input class="teste" type="text" id="ifav" name="fav">
+                            </div>
+                            <div>
+                                <div class="muito"><label for="iaut">Autor(a) Favorito(a):</label></div>
+                                <input class="teste" type="text" id="iaut" name="fav">
+                            </div>
+                            <div id="radio">
+                                <div class="muito"><label>Sexo: </label></div>
+                                <input type="radio" id="imasc" class="rad" name="rad">
+                                <label for="imasc">Masculino</label>
+                                <input type="radio" id="ifem" class="rad" name="rad">
+                                <label for="ifem">Feminino</label>
+                            </div>
+                        </div>
+                        <div id="field">
+                            <fieldset>
+                                <legend>Quais destes gêneros abaixo lhe interessam?</legend>
+                                <section id="secao1">
+                                    <div><input type="checkbox" name="" id="irom"><label for="irom"> Romance</label></div>
+                                    <div><input type="checkbox" name="" id="ifan"><label for="ifan"> Fantasia</label></div>
+                                    <div><input type="checkbox" name="" id="isci"><label for="isci"> Sci-Fi</label></div>
+                                    <div><input type="checkbox" name="" id="idis"><label for="idis"> Distopia</label></div>
+                                    <div><input type="checkbox" name="" id="iter"><label for="iter"> Terror</label></div>
+                                    <div><input type="checkbox" name="" id="imis"><label for="imis"> Mistério</label></div>
+                                    <div><input type="checkbox" name="" id="iya"><label for="iya"> Y.A</label></div>
+                                </section>
+                                <section id="secao2">
+                                    <div><input type="checkbox" name="" id="icon"><label for="icon"> Contos</label></div>
+                                    <div><input type="checkbox" name="" id="isus"><label for="isus"> Suspense</label></div>
+                                    <div><input type="checkbox" name="" id="idram"><label for="idram"> Drama</label></div>
+                                    <div><input type="checkbox" name="" id="icla"><label for="icla"> Clássico</label></div>
+                                    <div><input type="checkbox" name="" id="ihq"><label for="ihq"> HQ</label></div>
+                                    <div><input type="checkbox" name="" id="inof"><label for="inof"> Não-Ficção</label></div>
+                                    <div><input type="checkbox" name="" id="ipoe"><label for="ipoe"> Poesia</label></div>
+                                </section>
+                            </fieldset>
+                        </div>
+                    </form>
                     <div id="sub">
                         <input type="submit" value="Enviar">
                     </div>
-                </form>
+                </section>
             </div>
         </section>
     </main>
