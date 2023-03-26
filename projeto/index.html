@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media.css" media="all">
+    <title>SignUp</title>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <div id="imagem">
+                
+            </div>
+            <div id="form">
+                <h1>Clube do Livro <br> Resenhando Sonhos</h1>
+                <form action="cadastro.php" method="post" autcomplete="on">
+                    <div>
+                        <label for="inome">Nome: </label>
+                        <input type="text" id="inome" name="nome">
+                    </div>
+
+                    <div>
+                        <label for="isobre">Sobrenome: </label>
+                        <input type="text" id="isobre" name="sobre">
+                    </div>
+
+                    <div>
+                        <label for="iidade">Idade: </label>
+                        <input type="number" id="iidade" name="idade">
+                    </div>
+                    <div>
+                        <label for="ifav">Livro Favorito: </label>
+                        <input type="text" id="ifav" name="fav">
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Quais destes gêneros lhe interessam?</legend>
+                            <section id="secao1">
+                                <div><input type="checkbox" name="" id="irom"><label for="irom"> Romance</label></div>
+                                <div><input type="checkbox" name="" id="ifan"><label for="ifan"> Fantasia</label></div>
+                                <div><input type="checkbox" name="" id="isci"><label for="isci"> Sci-Fi</label></div>
+                                <div><input type="checkbox" name="" id="idis"><label for="idis"> Distopia</label></div>
+                                <div><input type="checkbox" name="" id="iter"><label for="iter"> Terror</label></div>
+                                <div><input type="checkbox" name="" id="imis"><label for="imis"> Mistério</label></div>
+                                <div><input type="checkbox" name="" id="iya"><label for="iya"> Y.A</label></div>
+                            </section>
+                            <section id="secao2">
+                                <div><input type="checkbox" name="" id="icon"><label for="icon"> Contos</label></div>
+                                <div><input type="checkbox" name="" id="isus"><label for="isus"> Suspense</label></div>
+                                <div><input type="checkbox" name="" id="idram"><label for="idram"> Drama</label></div>
+                                <div><input type="checkbox" name="" id="icla"><label for="icla"> Clássico</label></div>
+                                <div><input type="checkbox" name="" id="ihq"><label for="ihq"> HQ</label></div>
+                                <div><input type="checkbox" name="" id="inof"><label for="inof"> Não-Ficção</label></div>
+                                <div><input type="checkbox" name="" id="ipoe"><label for="ipoe"> Poesia</label></div>
+                            </section>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
